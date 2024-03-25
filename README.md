@@ -33,6 +33,8 @@ You can run the test suite with `cargo test`.
 
 ## TODO
 
+Given the short time-frame for this little toy there are plenty of things I'd like to improve. However, all tests are green and it's fully functional. If I find more time I'd like to continue with the list below.
+
 - [ ] Add unit tests
 - [ ] Add benchmark testing (maybe with [criterion](https://docs.rs/criterion/latest/criterion/))
 - [ ] Look into threading and/or async for web server. E.g. we could use one thread for reading, one for processing, one for writing, and use send the data between them through channels.
